@@ -262,3 +262,39 @@ body{
 .contact-form button:hover{
     background:darkred;
 }
+
+
+
+.form-deco {
+        width: 40%;
+        padding: 7px;
+        border-radius: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 14px;
+        border: 2px solid black;
+    }
+
+    .form-margin {
+        margin-left: 10%;
+    }
+
+    label {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+    }
+
+    button {
+        margin-top: 10px;
+        background :black;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
