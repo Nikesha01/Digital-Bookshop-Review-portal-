@@ -1,0 +1,58 @@
+.common-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 20px;
+}
+
+.common-card{
+    background: #1D1D1D ;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.common-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.common-card h3{
+    margin-top: 15px;
+    font-size: 24px;
+    color: red;
+}
+
+.common-card p{
+    padding: 0 20px;
+    color: white;
+}
+
+.common-card button{
+    margin: 15px 0 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.common-card button:hover{
+    background-color: red;
+}
+
+.main{
+    color: #B8860B;
+}
+
+.mains{
+    color: white;
+}
