@@ -126,17 +126,21 @@ body{
 
 .contact-title{
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
-    color: #ece3e3;
+    color: darkgoldenrod;
+
 }
 
 .contact-title h1{
     font-size: 65px;
     text-shadow: darkgoldenrod;
     letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: #000000;
+    padding: 50px;
 }
 
 
@@ -149,8 +153,8 @@ body{
     padding:50px;
 }
 
-.contact-section h2{
-    color: darkgoldenrod;
+.contact-section h3{
+    color: rgb(227, 223, 214);
     font-size:40px;
     text-align:center;
     margin-bottom:20px;
