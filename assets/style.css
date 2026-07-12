@@ -59,11 +59,11 @@ body{
     width: 450px;
 }
 
-.hero-font h1{
+.hero-font h2{
    font-size: 45px;
-   margin-bottom: 20px; 
+   margin-bottom: 20px;
+   color: darkgoldenrod;
 }
-
 .hero-font p{
     font-size: 20px;
     line-height: 1.6;
