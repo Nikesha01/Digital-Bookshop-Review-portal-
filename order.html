@@ -8,44 +8,27 @@
 </head>
 <body>
     <img src="assets/img/jaredd-craig-floatingbook-unsplash-bookshop.webp" alt="img" width="1530" height="500px">
-    </center>
-    <h1>Buy Books</h1>
-    <hr>
-    <div class="form-margin">
-        <form action="">
-            <br>
-            <label for="name">Name </label><br>
-            <input type="text" class="form-deco" required> <br><br>
+    
+    <section class="order-section">
 
-            <label>Email</label> <br>
-            <input type="email" class="form-deco" required><br><br>
+        <h1> Order Books </h1>
 
-            <label>Phone Number</label> <br>
-            <input type="tel" class="form-deco" required><br><br>
+        <form action="index.html" class="order-form">
 
-            <label>Select Book</label> <br>
-            <select class="form-deco">
-                <option>Harry Potter</option>
-                <option>Atomic Habits</option>
-                <option>Rich Dad Poor Dad</option>
-                <option>The Alchemist</option>
-            </select>
-            <br><br>
-            <label>Quantity</label> <br>
-            <input type="number" min="1" value="1" class="form-deco">
-            <br><br>
-            <label>Payment Method</label> <br>
-            <select class="form-deco">
-                <option>Credit Card</option>
-                <option>Debit Card</option>
-                <option>PayPal</option>
-            </select>
-            <br><br>
-            <label>Additional Notes</label> <br>
-            <textarea rows="4" cols="40" class="form-deco"></textarea> <br><br>
-            <button type="submit"><a href="order.html">Place Order</a></button>
-            <button type="reset">Clear Form</button>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="text" placeholder="Book Name" required>
+
+            <input type="number" placeholder="Quantity" required>
+            <textarea rows="5" placeholder="Delivery Address" required></textarea>
+
+            <button type="submit">Submit Order</button>
+
         </form>
-    </div>
+
+    </section>
+
 </body>
 </html>
