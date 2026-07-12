@@ -109,7 +109,7 @@ body{
 }
 
 
-.hero-text{
+.hero-font{
     position: absolute;
     top: 50%;
     left: 10%;
@@ -119,13 +119,13 @@ body{
 }
 
 
-.hero-text h1{
+.hero-font h1{
     font-size: 45px;
     margin-bottom: 20px;
 }
 
 
-.hero-text p{
+.hero-font p{
     font-size: 20px;
     line-height: 1.6;
 }
